@@ -1348,5 +1348,5 @@ export const htmlLangListDetail = [
         culture:"zu-ZA",
         specCulture:"zu-ZA",
         englishName:"Zulu (South Africa)"
-    }, 
+    }
 ]
