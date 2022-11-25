@@ -15,14 +15,14 @@ export const htmlLangList = [
         englishName:"Arabic"
     },
     {
-        culture:"af",
-        specCulture:"af-ZA",
-        englishName:"Afrikaans"
+        culture:"ar-AE",
+        specCulture:"ar-AE",
+        englishName:"Arabic (U.A.E.)"
     },
     {
-        culture:"af",
-        specCulture:"af-ZA",
-        englishName:"Afrikaans"
+        culture:"ar-BH",
+        specCulture:"ar-BH",
+        englishName:"Arabic (Bahrain)"
     },
     {
         culture:"af",
