@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
-export default function App() {
+function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div className="h-screen text-white bg-gray-800">
+      <h1 className="mt-4 text-xl">Lista simple</h1>
+    </div>
   )
 }
+
+export default App;
