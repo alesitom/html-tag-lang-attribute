@@ -1,7 +1,13 @@
+import HtmlLangList from "./components/htmlLangCards/HtmlLangList";
+import { htmlLangListDetail } from "./data"
+
 function App() {
   return (
-    <div className="h-screen text-white bg-gray-800">
-      <h1 className="mt-4 text-xl">Lista simple</h1>
+    <div className="h-full py-8 bg-slate-900 ">
+      <div className="container py-16 mx-auto">
+          <h1 h1 className="text-6xl font-bold text-center text-white font-recursive">HTML Lang Attribute</h1>
+      </div>
+      <HtmlLangList list={htmlLangListDetail}/>
     </div>
   )
 }
