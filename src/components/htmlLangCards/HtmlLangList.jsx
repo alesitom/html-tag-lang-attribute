@@ -4,7 +4,7 @@ const HtmlLangList = ({ list }) => {
     return (
         <div className="mx-auto text-slate-100 font-recursive">
                 <table class="table-auto text-left border-b border-emerald-200 mx-auto">
-                <thead className="text-lg border-b hover:bg-slate-700 hover:cursor-pointer border-emerald-200 hover:text-emerald-300">
+                <thead className="text-lg border-b hover:bg-slate-700 hover:cursor-pointer border-emerald-200 hover:text-emerald-300 placeholder:">
                     <tr>
                         <th scope="col" className="px-6 py-3">#</th>
                         <th scope="col" className="px-6 py-3">Culture</th>
