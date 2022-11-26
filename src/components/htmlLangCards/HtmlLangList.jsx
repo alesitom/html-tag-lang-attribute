@@ -2,11 +2,9 @@ import React from "react";
 
 const HtmlLangList = ({ list }) => {
     return (
-        <div className="container text-center">
-            <div className="row">
-            <div class="col-10  mx-auto">
-            <table class="table table-dark table-hover">
-                <thead>
+        <div className="mx-auto text-slate-100 font-recursive">
+                <table class="table-auto text-left border-b border-emerald-200 mx-auto">
+                <thead className="text-lg border-b hover:bg-slate-700 hover:cursor-pointer border-emerald-200 hover:text-emerald-300 placeholder:">
                     <tr>
                     <th scope="col">#</th>
                     <th scope="col">Culture</th>
