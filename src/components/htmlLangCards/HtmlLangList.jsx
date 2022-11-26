@@ -2,27 +2,31 @@ import React from "react";
 
 const HtmlLangList = ({ list }) => {
     return (
-        <div className="mx-auto text-slate-100 font-recursive">
-                <table class="table-auto text-left border-b border-emerald-200 mx-auto">
-                <thead className="text-lg border-b hover:bg-slate-700 hover:cursor-pointer border-emerald-200 hover:text-emerald-300">
+        <div className="container text-center">
+            <div className="row">
+            <div class="col-10  mx-auto">
+            <table class="table table-dark table-hover">
+                <thead>
                     <tr>
-                        <th scope="col" className="px-6 py-3">#</th>
-                        <th scope="col" className="px-6 py-3">Culture</th>
-                        <th scope="col" className="px-6 py-3">Specific Culture</th>
-                        <th scope="col" className="px-6 py-3">English Name</th>
+                    <th scope="col">#</th>
+                    <th scope="col">Culture</th>
+                    <th scope="col">Specific Culture</th>
+                    <th scope="col">English Name</th>
                     </tr>
                 </thead>
                 {list.map((htmlLang, index) => (
                 <tbody key={index}>
-                    <tr className="hover:bg-slate-700 hover:cursor-pointer hover:text-emerald-300">
-                        <td className="px-6 py-2">{htmlLang.id}</td>
-                        <td className="px-6 py-2">{htmlLang.culture}</td>
-                        <td className="px-6 py-2">{htmlLang.specCulture}</td>
-                        <td className="px-6 py-2">{htmlLang.englishName}</td>
+                    <tr>
+                    <th scope="row">{htmlLang.id}</th>
+                    <td data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip">{htmlLang.culture}</td>
+                    <td>{htmlLang.specCulture}</td>
+                    <td>{htmlLang.englishName}</td>
                     </tr>
                 </tbody>
                 ))}
             </table>
+        </div>
+        </div>
         </div>
     );
 };
